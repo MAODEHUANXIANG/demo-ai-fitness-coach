@@ -153,9 +153,12 @@ AI-Fitness-Coach/
 
 分 3 步，第 1、2 步在**主机**上做，第 3 步在**板子上**做：
 
-**第 1 步（主机）：生成一键安装包**
+**第 1 步（主机）：拿到一键安装包**
 
-把项目里的 code + models + audio + runtime 全部压缩进一个自解压文件（约 200MB）：
+两种途径任选其一：
+
+- **直接下载（省事）**：从 [Releases](https://github.com/MAODEHUANXIANG/demo-ai-fitness-coach/releases) 页面下载 `ai-fitness-coach-installer.run`（约 220MB，已内置全部运行环境）
+- **自己构建**：把项目里的 code + models + audio + runtime 全部压缩进一个自解压文件（约 200MB）：
 
 ```bash
 cd "/home/q/project/Demo/AI-Fitness-Coach"
