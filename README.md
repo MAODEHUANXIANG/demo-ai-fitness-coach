@@ -1,7 +1,5 @@
 # AI Fitness Coach
 
-[English] | [中文](README_zh.md)
-
 AI Fitness Coach (智能健身教练) is an edge-AI fitness application for Quectel Pi (RK3576). It captures video from a USB camera, runs YOLO11n-pose on the on-board NPU to track 17 body keypoints in real time, automatically counts six exercise types, and coaches you with bilingual voice feedback — completely offline.
 
 ![App Preview](assets/app-preview.jpg)
