@@ -1,10 +1,10 @@
 # 巨型可再生产物（tools/ 脚本可重建，勿入库）
-packages/          # download_conda_pkgs.sh 重建
-runtime/           # make_runtime.sh 重建
-dist/              # make_run_pack.sh 重建
+packages/
+runtime/
+dist/
 
 # 备份与缓存
-audio_old_huayan/  # 旧 huayan 语音备份（已淘汰）
+audio_old_huayan/
 __pycache__/
 *.pyc
 
